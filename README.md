@@ -1,4 +1,4 @@
-The app is hosted here: [https://dacadeorg.github.io/near-marketplace-dapp/](https://dacadeorg.github.io/near-marketplace-dapp/)
+The app is hosted here: [https://near-food-store.vercel.app/](https://near-food-store.vercel.app/)
 
 # Getting Started with Create React App
 
