@@ -73,6 +73,7 @@ const Products = () => {
           <Row xs={1} sm={2} lg={3} className="g-3  mb-5 g-xl-4 g-xxl-5">
             {products.map((_product) => (
               <Product
+                key={_product.id}
                 product={{
                   ..._product,
                 }}
