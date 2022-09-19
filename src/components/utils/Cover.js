@@ -26,7 +26,7 @@ const Cover = ({ name, login, coverImg }) => {
             Connect Wallet
           </Button>
         </div>
-        <p className="mt-auto text-secondary">Powered by NEAR | Created by <a href="https://github.com/jackytank" target="_blank">Minh Tri</a></p>
+        <p className="mt-auto text-secondary">Powered by NEAR | Created by <a href="https://github.com/jackytank" target="_blank" rel="noreferrer">Minh Tri</a></p>
       </div>
     );
   }
