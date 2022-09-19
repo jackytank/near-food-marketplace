@@ -1,5 +1,6 @@
 import React from "react";
 import { Dropdown, Stack, Spinner } from "react-bootstrap";
+import nearTicket from "../assets/img/near.png"
 
 const Wallet = ({ address, amount, symbol, destroy }) => {
   if (address) {
@@ -14,7 +15,7 @@ const Wallet = ({ address, amount, symbol, destroy }) => {
           >
             {amount ? (
               <>
-                {amount} <span className="ms-1"> {symbol}</span>
+                {amount} <span className="ms-1"> <img src={nearTicket} alt="NEAR Ticket"></img> {symbol}</span>
               </>
             ) : (
               <Spinner animation="border" size="sm" className="opacity-25" />

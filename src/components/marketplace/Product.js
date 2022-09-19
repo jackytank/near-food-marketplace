@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { utils } from "near-api-js";
 import { Card, Button, Col, Badge, Stack } from "react-bootstrap";
+import nearTicket from '../../assets/img/near.png';
 
 const Product = ({ product, buy }) => {
   const { id, price, name, description, sold, location, image, owner } =
@@ -36,7 +37,7 @@ const Product = ({ product, buy }) => {
             onClick={triggerBuy}
             className="w-100 py-3"
           >
-            Buy for {utils.format.formatNearAmount(price)} NEAR
+            Buy for {utils.format.formatNearAmount(price)} <img src={nearTicket} alt="NEAR Ticket"></img>
           </Button>
         </Card.Body>
       </Card>
